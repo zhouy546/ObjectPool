@@ -53,11 +53,6 @@ public class ObjectPoolV_1_0 : MonoBehaviour {
                 Debug.Log("CollectObject"+ g[i].name);
                 return;            
             }
-            
-            else {
-                Debug.Log("there is no named object in the scene");
-                return;
-            }
         }
     }
 
